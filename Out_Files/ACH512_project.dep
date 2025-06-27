@@ -1,7 +1,7 @@
 Dependencies for Project 'ACH512', Target 'project': (DO NOT MODIFY !)
 CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
 F (.\ACH512\system\startup.s)(0x5B95CABC)(--cpu Cortex-M3 --li -g --apcs=interwork -I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include--pd "__UVISION_VERSION SETA 538" --pd "_RTE_ SETA 1" --pd "ARMCM3 SETA 1" --pd "_RTE_ SETA 1"--list .\startup.lst --xref -o .\out_files\startup.o --depend .\out_files\startup.d)
-F (.\ACH512\system\system_ach512.c)(0x5B95CABC)(-c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\system_ach512.o --omf_browse .\out_files\system_ach512.crf --depend .\out_files\system_ach512.d)
+F (.\ACH512\system\system_ach512.c)(0x5B95CABC)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\system_ach512.o --omf_browse .\out_files\system_ach512.crf --depend .\out_files\system_ach512.d)
 I (ACH512\system\system_ach512.h)(0x5B95CABC)
 I (.\COMMON\common.h)(0x5B95CAB6)
 I (.\COMMON\stdio.h)(0x5B95CAB6)
@@ -16,7 +16,7 @@ I (.\CMSIS\Include\cmsis_armcc.h)(0x5B95CAB8)
 I (.\CMSIS\Include\core_cmFunc.h)(0x5B95CAB8)
 I (.\ACH512\system\system_ach512.h)(0x5B95CABC)
 I (.\ACH512\driver\uart.h)(0x5B95CABA)
-F (.\ACH512\driver\uart.c)(0x5B95CABC)(-c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\uart.o --omf_browse .\out_files\uart.crf --depend .\out_files\uart.d)
+F (.\ACH512\driver\uart.c)(0x5B95CABC)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\uart.o --omf_browse .\out_files\uart.crf --depend .\out_files\uart.d)
 I (ACH512\driver\uart.h)(0x5B95CABA)
 I (.\COMMON\common.h)(0x5B95CAB6)
 I (.\COMMON\stdio.h)(0x5B95CAB6)
@@ -31,7 +31,7 @@ I (.\CMSIS\Include\cmsis_armcc.h)(0x5B95CAB8)
 I (.\CMSIS\Include\core_cmFunc.h)(0x5B95CAB8)
 I (.\ACH512\system\system_ach512.h)(0x5B95CABC)
 I (.\ACH512\driver\uart.h)(0x5B95CABA)
-F (.\ACH512\driver\usb.c)(0x685E0231)(-c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\usb.o --omf_browse .\out_files\usb.crf --depend .\out_files\usb.d)
+F (.\ACH512\driver\usb.c)(0x685E0231)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\usb.o --omf_browse .\out_files\usb.crf --depend .\out_files\usb.d)
 I (ACH512\driver\usb.h)(0x5B95CABA)
 I (.\COMMON\common.h)(0x5B95CAB6)
 I (.\COMMON\stdio.h)(0x5B95CAB6)
@@ -46,7 +46,7 @@ I (.\CMSIS\Include\cmsis_armcc.h)(0x5B95CAB8)
 I (.\CMSIS\Include\core_cmFunc.h)(0x5B95CAB8)
 I (.\ACH512\system\system_ach512.h)(0x5B95CABC)
 I (.\ACH512\driver\uart.h)(0x5B95CABA)
-F (.\ACH512\driver\usb_app.c)(0x685E00F3)(-c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\usb_app.o --omf_browse .\out_files\usb_app.crf --depend .\out_files\usb_app.d)
+F (.\ACH512\driver\usb_app.c)(0x685E00F3)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\usb_app.o --omf_browse .\out_files\usb_app.crf --depend .\out_files\usb_app.d)
 I (ACH512\driver\usb_app.h)(0x685E0008)
 I (.\COMMON\common.h)(0x5B95CAB6)
 I (.\COMMON\stdio.h)(0x5B95CAB6)
@@ -64,7 +64,7 @@ I (.\ACH512\driver\uart.h)(0x5B95CABA)
 I (ACH512\driver\usb.h)(0x5B95CABA)
 I (ACH512\driver\usb_desc.h)(0x685DFF84)
 I (ACH512\driver\webusb.h)(0x685E00DE)
-F (.\ACH512\driver\usb_desc.c)(0x685DFEEA)(-c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\usb_desc.o --omf_browse .\out_files\usb_desc.crf --depend .\out_files\usb_desc.d)
+F (.\ACH512\driver\usb_desc.c)(0x685DFEEA)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\usb_desc.o --omf_browse .\out_files\usb_desc.crf --depend .\out_files\usb_desc.d)
 I (ACH512\driver\usb.h)(0x5B95CABA)
 I (.\COMMON\common.h)(0x5B95CAB6)
 I (.\COMMON\stdio.h)(0x5B95CAB6)
@@ -81,7 +81,7 @@ I (.\ACH512\system\system_ach512.h)(0x5B95CABC)
 I (.\ACH512\driver\uart.h)(0x5B95CABA)
 I (ACH512\driver\usb_app.h)(0x685E0008)
 I (ACH512\driver\usb_desc.h)(0x685DFF84)
-F (.\ACH512\driver\webusb.c)(0x685E0105)(-c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\webusb.o --omf_browse .\out_files\webusb.crf --depend .\out_files\webusb.d)
+F (.\ACH512\driver\webusb.c)(0x685E0105)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\webusb.o --omf_browse .\out_files\webusb.crf --depend .\out_files\webusb.d)
 I (ACH512\driver\webusb.h)(0x685E00DE)
 I (.\COMMON\common.h)(0x5B95CAB6)
 I (.\COMMON\stdio.h)(0x5B95CAB6)
@@ -98,7 +98,7 @@ I (.\ACH512\system\system_ach512.h)(0x5B95CABC)
 I (.\ACH512\driver\uart.h)(0x5B95CABA)
 I (ACH512\driver\usb.h)(0x5B95CABA)
 I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
-F (.\COMMON\common.c)(0x5B95CAB6)(-c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\common.o --omf_browse .\out_files\common.crf --depend .\out_files\common.d)
+F (.\COMMON\common.c)(0x5B95CAB6)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\common.o --omf_browse .\out_files\common.crf --depend .\out_files\common.d)
 I (COMMON\common.h)(0x5B95CAB6)
 I (COMMON\stdio.h)(0x5B95CAB6)
 I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
@@ -113,7 +113,7 @@ I (.\CMSIS\Include\core_cmFunc.h)(0x5B95CAB8)
 I (.\ACH512\system\system_ach512.h)(0x5B95CABC)
 I (.\COMMON\common.h)(0x5B95CAB6)
 I (.\ACH512\driver\uart.h)(0x5B95CABA)
-F (.\APP\main.c)(0x685E023B)(-c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\main.o --omf_browse .\out_files\main.crf --depend .\out_files\main.d)
+F (.\APP\main.c)(0x685E09F6)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\main.o --omf_browse .\out_files\main.crf --depend .\out_files\main.d)
 I (.\COMMON\common.h)(0x5B95CAB6)
 I (.\COMMON\stdio.h)(0x5B95CAB6)
 I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
@@ -130,3 +130,474 @@ I (.\ACH512\driver\uart.h)(0x5B95CABA)
 I (APP\app.h)(0x5B95CABA)
 I (.\ACH512\driver\usb_app.h)(0x685E0008)
 F (.\Abstratct.txt)(0x00000000)()
+F (.\ACH512\foundation\core\address.c)(0x685DFC56)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\address.o --omf_browse .\out_files\address.crf --depend .\out_files\address.d)
+I (ACH512\foundation\core\address.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (ACH512\foundation\core\options.h)(0x685DFC57)
+I (ACH512\foundation\core\bignum.h)(0x685DFC57)
+I (ACH512\foundation\core\sha3.h)(0x685DFC57)
+F (.\ACH512\foundation\core\base58.c)(0x685DFC57)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\base58.o --omf_browse .\out_files\base58.crf --depend .\out_files\base58.d)
+I (ACH512\foundation\core\base58.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (ACH512\foundation\core\hasher.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (ACH512\foundation\core\blake256.h)(0x685DFC57)
+I (ACH512\foundation\core\blake2b.h)(0x685DFC56)
+I (ACH512\foundation\core\groestl.h)(0x685DFC57)
+I (ACH512\foundation\core\sha2.h)(0x685DFC57)
+I (ACH512\foundation\core\sha3.h)(0x685DFC57)
+I (ACH512\foundation\core\options.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (ACH512\foundation\core\memzero.h)(0x685DFC57)
+I (ACH512\foundation\core\ripemd160.h)(0x685DFC57)
+F (.\ACH512\foundation\core\bignum.c)(0x685DFC57)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\bignum.o --omf_browse .\out_files\bignum.crf --depend .\out_files\bignum.d)
+I (ACH512\foundation\core\bignum.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (ACH512\foundation\core\options.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (ACH512\foundation\core\memzero.h)(0x685DFC57)
+F (.\ACH512\foundation\core\bip32.c)(0x685DFC57)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\bip32.o --omf_browse .\out_files\bip32.crf --depend .\out_files\bip32.d)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (ACH512\foundation\core\address.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (ACH512\foundation\core\options.h)(0x685DFC57)
+I (ACH512\foundation\core\aes/aes.h)(0x685DFC56)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (ACH512\foundation\core\base58.h)(0x685DFC57)
+I (ACH512\foundation\core\hasher.h)(0x685DFC57)
+I (ACH512\foundation\core\blake256.h)(0x685DFC57)
+I (ACH512\foundation\core\blake2b.h)(0x685DFC56)
+I (ACH512\foundation\core\groestl.h)(0x685DFC57)
+I (ACH512\foundation\core\sha2.h)(0x685DFC57)
+I (ACH512\foundation\core\sha3.h)(0x685DFC57)
+I (ACH512\foundation\core\bignum.h)(0x685DFC57)
+I (ACH512\foundation\core\bip32.h)(0x685DFC57)
+I (ACH512\foundation\core\ecdsa.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna/ed25519.h)(0x685DFC56)
+I (ACH512\foundation\core\curves.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna/ed25519-sha3.h)(0x685DFC56)
+I (ACH512\foundation\core\hmac.h)(0x685DFC57)
+I (ACH512\foundation\core\nist256p1.h)(0x685DFC56)
+I (ACH512\foundation\core\secp256k1.h)(0x685DFC57)
+I (ACH512\foundation\core\ed25519-donna/ed25519-keccak.h)(0x685DFC56)
+I (ACH512\foundation\core\memzero.h)(0x685DFC57)
+F (.\ACH512\foundation\core\bip39.c)(0x685DFC57)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\bip39.o --omf_browse .\out_files\bip39.crf --depend .\out_files\bip39.d)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (ACH512\foundation\core\bip39.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (ACH512\foundation\core\bip39_english.h)(0x685DFC56)
+I (ACH512\foundation\core\hmac.h)(0x685DFC57)
+I (ACH512\foundation\core\sha2.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (ACH512\foundation\core\memzero.h)(0x685DFC57)
+I (ACH512\foundation\core\options.h)(0x685DFC57)
+I (ACH512\foundation\core\pbkdf2.h)(0x685DFC56)
+I (ACH512\foundation\core\rand.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+F (.\ACH512\foundation\core\bip44.c)(0x685DFC56)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\bip44.o --omf_browse .\out_files\bip44.crf --depend .\out_files\bip44.d)
+I (ACH512\foundation\core\bip44.h)(0x685DFC57)
+I (.\COMMON\common.h)(0x5B95CAB6)
+I (.\COMMON\stdio.h)(0x5B95CAB6)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (.\COMMON\types.h)(0x5B95CAB6)
+I (.\COMMON\config.h)(0x5B95CAB6)
+I (.\ACH512\system\ach512.h)(0x5B95CABC)
+I (.\CMSIS\Include\core_cm3.h)(0x5B95CAB8)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (.\CMSIS\Include\core_cmInstr.h)(0x5B95CAB8)
+I (.\CMSIS\Include\cmsis_armcc.h)(0x5B95CAB8)
+I (.\CMSIS\Include\core_cmFunc.h)(0x5B95CAB8)
+I (.\ACH512\system\system_ach512.h)(0x5B95CABC)
+I (.\ACH512\driver\uart.h)(0x5B95CABA)
+I (ACH512\foundation\core\bip32.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (ACH512\foundation\core\ecdsa.h)(0x685DFC56)
+I (ACH512\foundation\core\bignum.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (ACH512\foundation\core\options.h)(0x685DFC57)
+I (ACH512\foundation\core\hasher.h)(0x685DFC57)
+I (ACH512\foundation\core\blake256.h)(0x685DFC57)
+I (ACH512\foundation\core\blake2b.h)(0x685DFC56)
+I (ACH512\foundation\core\groestl.h)(0x685DFC57)
+I (ACH512\foundation\core\sha2.h)(0x685DFC57)
+I (ACH512\foundation\core\sha3.h)(0x685DFC57)
+I (ACH512\foundation\core\ed25519-donna/ed25519.h)(0x685DFC56)
+F (.\ACH512\foundation\core\blake2b.c)(0x685DFC57)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\blake2b.o --omf_browse .\out_files\blake2b.crf --depend .\out_files\blake2b.d)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (ACH512\foundation\core\blake2b.h)(0x685DFC56)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (ACH512\foundation\core\blake2_common.h)(0x685DFC57)
+I (ACH512\foundation\core\memzero.h)(0x685DFC57)
+F (.\ACH512\foundation\core\blake256.c)(0x685DFC57)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\blake256.o --omf_browse .\out_files\blake256.crf --depend .\out_files\blake256.d)
+I (ACH512\foundation\core\blake256.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+F (.\ACH512\foundation\core\curves.c)(0x685DFC56)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\curves.o --omf_browse .\out_files\curves.crf --depend .\out_files\curves.d)
+I (ACH512\foundation\core\curves.h)(0x685DFC56)
+I (ACH512\foundation\core\options.h)(0x685DFC57)
+F (.\ACH512\foundation\core\ecdsa.c)(0x685DFC56)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\ecdsa.o --omf_browse .\out_files\ecdsa.crf --depend .\out_files\ecdsa.d)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (ACH512\foundation\core\address.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (ACH512\foundation\core\options.h)(0x685DFC57)
+I (ACH512\foundation\core\base58.h)(0x685DFC57)
+I (ACH512\foundation\core\hasher.h)(0x685DFC57)
+I (ACH512\foundation\core\blake256.h)(0x685DFC57)
+I (ACH512\foundation\core\blake2b.h)(0x685DFC56)
+I (ACH512\foundation\core\groestl.h)(0x685DFC57)
+I (ACH512\foundation\core\sha2.h)(0x685DFC57)
+I (ACH512\foundation\core\sha3.h)(0x685DFC57)
+I (ACH512\foundation\core\bignum.h)(0x685DFC57)
+I (ACH512\foundation\core\ecdsa.h)(0x685DFC56)
+I (ACH512\foundation\core\hmac.h)(0x685DFC57)
+I (ACH512\foundation\core\memzero.h)(0x685DFC57)
+I (ACH512\foundation\core\rand.h)(0x685DFC57)
+I (ACH512\foundation\core\rfc6979.h)(0x685DFC56)
+I (ACH512\foundation\core\hmac_drbg.h)(0x685DFC57)
+I (ACH512\foundation\core\secp256k1.h)(0x685DFC57)
+I (ACH512\foundation\core\bip32.h)(0x685DFC57)
+I (ACH512\foundation\core\ed25519-donna/ed25519.h)(0x685DFC56)
+F (.\ACH512\foundation\core\groestl.c)(0x685DFC57)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\groestl.o --omf_browse .\out_files\groestl.crf --depend .\out_files\groestl.d)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (ACH512\foundation\core\groestl_internal.h)(0x685DFC56)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\limits.h)(0x5CEB79D6)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (ACH512\foundation\core\groestl.h)(0x685DFC57)
+I (ACH512\foundation\core\memzero.h)(0x685DFC57)
+F (.\ACH512\foundation\core\hasher.c)(0x685DFC57)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\hasher.o --omf_browse .\out_files\hasher.crf --depend .\out_files\hasher.d)
+I (ACH512\foundation\core\hasher.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (ACH512\foundation\core\blake256.h)(0x685DFC57)
+I (ACH512\foundation\core\blake2b.h)(0x685DFC56)
+I (ACH512\foundation\core\groestl.h)(0x685DFC57)
+I (ACH512\foundation\core\sha2.h)(0x685DFC57)
+I (ACH512\foundation\core\sha3.h)(0x685DFC57)
+I (ACH512\foundation\core\options.h)(0x685DFC57)
+I (ACH512\foundation\core\ripemd160.h)(0x685DFC57)
+F (.\ACH512\foundation\core\hmac.c)(0x685DFC57)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\hmac.o --omf_browse .\out_files\hmac.crf --depend .\out_files\hmac.d)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (ACH512\foundation\core\hmac.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (ACH512\foundation\core\sha2.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (ACH512\foundation\core\memzero.h)(0x685DFC57)
+I (ACH512\foundation\core\options.h)(0x685DFC57)
+F (.\ACH512\foundation\core\hmac_drbg.c)(0x685DFC57)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\hmac_drbg.o --omf_browse .\out_files\hmac_drbg.crf --depend .\out_files\hmac_drbg.d)
+I (ACH512\foundation\core\hmac_drbg.h)(0x685DFC57)
+I (.\ACH512\foundation\core\sha2.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (ACH512\foundation\core\memzero.h)(0x685DFC57)
+F (.\ACH512\foundation\core\memzero.c)(0x685DFC57)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\memzero.o --omf_browse .\out_files\memzero.crf --depend .\out_files\memzero.d)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+F (.\ACH512\foundation\core\nist256p1.c)(0x685DFC56)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\nist256p1.o --omf_browse .\out_files\nist256p1.crf --depend .\out_files\nist256p1.d)
+I (ACH512\foundation\core\nist256p1.h)(0x685DFC56)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (ACH512\foundation\core\bip32.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (ACH512\foundation\core\ecdsa.h)(0x685DFC56)
+I (ACH512\foundation\core\bignum.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (ACH512\foundation\core\options.h)(0x685DFC57)
+I (ACH512\foundation\core\hasher.h)(0x685DFC57)
+I (ACH512\foundation\core\blake256.h)(0x685DFC57)
+I (ACH512\foundation\core\blake2b.h)(0x685DFC56)
+I (ACH512\foundation\core\groestl.h)(0x685DFC57)
+I (ACH512\foundation\core\sha2.h)(0x685DFC57)
+I (ACH512\foundation\core\sha3.h)(0x685DFC57)
+I (ACH512\foundation\core\ed25519-donna/ed25519.h)(0x685DFC56)
+I (ACH512\foundation\core\nist256p1.table)(0x685DFC56)
+F (.\ACH512\foundation\core\pbkdf2.c)(0x685DFC56)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\pbkdf2.o --omf_browse .\out_files\pbkdf2.crf --depend .\out_files\pbkdf2.d)
+I (ACH512\foundation\core\pbkdf2.h)(0x685DFC56)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (ACH512\foundation\core\sha2.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (ACH512\foundation\core\hmac.h)(0x685DFC57)
+I (ACH512\foundation\core\memzero.h)(0x685DFC57)
+F (.\ACH512\foundation\core\rand.c)(0x685DFC56)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\rand.o --omf_browse .\out_files\rand.crf --depend .\out_files\rand.d)
+I (ACH512\foundation\core\rand.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (.\ACH512\foundation\hrng\hrng.h)(0x685DFC57)
+I (.\COMMON\common.h)(0x5B95CAB6)
+I (.\COMMON\stdio.h)(0x5B95CAB6)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (.\COMMON\types.h)(0x5B95CAB6)
+I (.\COMMON\config.h)(0x5B95CAB6)
+I (.\ACH512\system\ach512.h)(0x5B95CABC)
+I (.\CMSIS\Include\core_cm3.h)(0x5B95CAB8)
+I (.\CMSIS\Include\core_cmInstr.h)(0x5B95CAB8)
+I (.\CMSIS\Include\cmsis_armcc.h)(0x5B95CAB8)
+I (.\CMSIS\Include\core_cmFunc.h)(0x5B95CAB8)
+I (.\ACH512\system\system_ach512.h)(0x5B95CABC)
+I (.\ACH512\driver\uart.h)(0x5B95CABA)
+F (.\ACH512\foundation\core\rfc6979.c)(0x685DFC56)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\rfc6979.o --omf_browse .\out_files\rfc6979.crf --depend .\out_files\rfc6979.d)
+I (ACH512\foundation\core\rfc6979.h)(0x685DFC56)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (ACH512\foundation\core\bignum.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (ACH512\foundation\core\options.h)(0x685DFC57)
+I (ACH512\foundation\core\hmac_drbg.h)(0x685DFC57)
+I (.\ACH512\foundation\core\sha2.h)(0x685DFC57)
+I (ACH512\foundation\core\memzero.h)(0x685DFC57)
+F (.\ACH512\foundation\core\ripemd160.c)(0x685DFC57)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\ripemd160.o --omf_browse .\out_files\ripemd160.crf --depend .\out_files\ripemd160.d)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (ACH512\foundation\core\ripemd160.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (ACH512\foundation\core\memzero.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+F (.\ACH512\foundation\core\secp256k1.c)(0x685DFC56)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\secp256k1.o --omf_browse .\out_files\secp256k1.crf --depend .\out_files\secp256k1.d)
+I (ACH512\foundation\core\secp256k1.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (ACH512\foundation\core\bip32.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdbool.h)(0x5CEB79DE)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (ACH512\foundation\core\ecdsa.h)(0x685DFC56)
+I (ACH512\foundation\core\bignum.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (ACH512\foundation\core\options.h)(0x685DFC57)
+I (ACH512\foundation\core\hasher.h)(0x685DFC57)
+I (ACH512\foundation\core\blake256.h)(0x685DFC57)
+I (ACH512\foundation\core\blake2b.h)(0x685DFC56)
+I (ACH512\foundation\core\groestl.h)(0x685DFC57)
+I (ACH512\foundation\core\sha2.h)(0x685DFC57)
+I (ACH512\foundation\core\sha3.h)(0x685DFC57)
+I (ACH512\foundation\core\ed25519-donna/ed25519.h)(0x685DFC56)
+I (ACH512\foundation\core\secp256k1.table)(0x685DFC57)
+F (.\ACH512\foundation\core\sha2.c)(0x685DFC57)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\sha2.o --omf_browse .\out_files\sha2.crf --depend .\out_files\sha2.d)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (ACH512\foundation\core\sha2.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (ACH512\foundation\core\memzero.h)(0x685DFC57)
+F (.\ACH512\foundation\core\sha3.c)(0x685DFC57)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\sha3.o --omf_browse .\out_files\sha3.crf --depend .\out_files\sha3.d)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (ACH512\foundation\core\sha3.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (ACH512\foundation\core\options.h)(0x685DFC57)
+I (ACH512\foundation\core\memzero.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+F (.\ACH512\foundation\core\aes\aes_modes.c)(0x685DFC56)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\aes_modes.o --omf_browse .\out_files\aes_modes.crf --depend .\out_files\aes_modes.d)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (ACH512\foundation\core\aes\aesopt.h)(0x685DFC56)
+I (ACH512\foundation\core\aes\aes.h)(0x685DFC56)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+F (.\ACH512\foundation\core\aes\aescrypt.c)(0x685DFC56)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\aescrypt.o --omf_browse .\out_files\aescrypt.crf --depend .\out_files\aescrypt.d)
+I (ACH512\foundation\core\aes\aesopt.h)(0x685DFC56)
+I (ACH512\foundation\core\aes\aes.h)(0x685DFC56)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (ACH512\foundation\core\aes\aestab.h)(0x685DFC56)
+F (.\ACH512\foundation\core\aes\aeskey.c)(0x685DFC56)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\aeskey.o --omf_browse .\out_files\aeskey.crf --depend .\out_files\aeskey.d)
+I (ACH512\foundation\core\aes\aesopt.h)(0x685DFC56)
+I (ACH512\foundation\core\aes\aes.h)(0x685DFC56)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (ACH512\foundation\core\aes\aestab.h)(0x685DFC56)
+F (.\ACH512\foundation\core\aes\aestab.c)(0x685DFC56)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\aestab.o --omf_browse .\out_files\aestab.crf --depend .\out_files\aestab.d)
+I (ACH512\foundation\core\aes\aes.h)(0x685DFC56)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (ACH512\foundation\core\aes\aesopt.h)(0x685DFC56)
+I (ACH512\foundation\core\aes\aestab.h)(0x685DFC56)
+F (.\ACH512\foundation\core\aes\aestst.c)(0x685DFC56)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\aestst.o --omf_browse .\out_files\aestst.crf --depend .\out_files\aestst.d)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (ACH512\foundation\core\aes\aes.h)(0x685DFC56)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (ACH512\foundation\core\aes\aestst.h)(0x685DFC56)
+F (.\ACH512\foundation\core\ed25519-donna\curve25519-donna-32bit.c)(0x685DFC56)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\curve25519-donna-32bit.o --omf_browse .\out_files\curve25519-donna-32bit.crf --depend .\out_files\curve25519-donna-32bit.d)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-portable.h)(0x685DFC56)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (ACH512\foundation\core\ed25519-donna\curve25519-donna-32bit.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\curve25519-donna-helpers.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\modm-donna-32bit.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-basepoint-table.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-32bit-tables.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-impl-base.h)(0x685DFC56)
+F (.\ACH512\foundation\core\ed25519-donna\curve25519-donna-helpers.c)(0x685DFC56)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\curve25519-donna-helpers.o --omf_browse .\out_files\curve25519-donna-helpers.crf --depend .\out_files\curve25519-donna-helpers.d)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-portable.h)(0x685DFC56)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (ACH512\foundation\core\ed25519-donna\curve25519-donna-32bit.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\curve25519-donna-helpers.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\modm-donna-32bit.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-basepoint-table.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-32bit-tables.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-impl-base.h)(0x685DFC56)
+F (.\ACH512\foundation\core\ed25519-donna\curve25519-donna-scalarmult-base.c)(0x685DFC56)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\curve25519-donna-scalarmult-base.o --omf_browse .\out_files\curve25519-donna-scalarmult-base.crf --depend .\out_files\curve25519-donna-scalarmult-base.d)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-portable.h)(0x685DFC56)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (ACH512\foundation\core\ed25519-donna\curve25519-donna-32bit.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\curve25519-donna-helpers.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\modm-donna-32bit.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-basepoint-table.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-32bit-tables.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-impl-base.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519.h)(0x685DFC56)
+I (.\ACH512\foundation\core\options.h)(0x685DFC57)
+F (.\ACH512\foundation\core\ed25519-donna\ed25519.c)(0x685DFC56)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\ed25519.o --omf_browse .\out_files\ed25519.crf --depend .\out_files\ed25519.d)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-portable.h)(0x685DFC56)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (ACH512\foundation\core\ed25519-donna\curve25519-donna-32bit.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\curve25519-donna-helpers.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\modm-donna-32bit.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-basepoint-table.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-32bit-tables.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-impl-base.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519.h)(0x685DFC56)
+I (.\ACH512\foundation\core\options.h)(0x685DFC57)
+I (ACH512\foundation\core\ed25519-donna\ed25519-hash-custom.h)(0x685DFC56)
+I (.\ACH512\foundation\core\sha2.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (ACH512\foundation\core\ed25519-donna\curve25519-donna-scalarmult-base.h)(0x685DFC56)
+F (.\ACH512\foundation\core\ed25519-donna\ed25519-donna-32bit-tables.c)(0x685DFC56)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\ed25519-donna-32bit-tables.o --omf_browse .\out_files\ed25519-donna-32bit-tables.crf --depend .\out_files\ed25519-donna-32bit-tables.d)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-portable.h)(0x685DFC56)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (ACH512\foundation\core\ed25519-donna\curve25519-donna-32bit.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\curve25519-donna-helpers.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\modm-donna-32bit.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-basepoint-table.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-32bit-tables.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-impl-base.h)(0x685DFC56)
+F (.\ACH512\foundation\core\ed25519-donna\ed25519-donna-basepoint-table.c)(0x685DFC56)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\ed25519-donna-basepoint-table.o --omf_browse .\out_files\ed25519-donna-basepoint-table.crf --depend .\out_files\ed25519-donna-basepoint-table.d)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-portable.h)(0x685DFC56)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (ACH512\foundation\core\ed25519-donna\curve25519-donna-32bit.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\curve25519-donna-helpers.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\modm-donna-32bit.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-basepoint-table.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-32bit-tables.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-impl-base.h)(0x685DFC56)
+F (.\ACH512\foundation\core\ed25519-donna\ed25519-donna-impl-base.c)(0x685DFC56)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\ed25519-donna-impl-base.o --omf_browse .\out_files\ed25519-donna-impl-base.crf --depend .\out_files\ed25519-donna-impl-base.d)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-portable.h)(0x685DFC56)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (ACH512\foundation\core\ed25519-donna\curve25519-donna-32bit.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\curve25519-donna-helpers.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\modm-donna-32bit.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-basepoint-table.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-32bit-tables.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-impl-base.h)(0x685DFC56)
+I (.\ACH512\foundation\core\memzero.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+F (.\ACH512\foundation\core\ed25519-donna\ed25519-keccak.c)(0x685DFC56)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\ed25519-keccak.o --omf_browse .\out_files\ed25519-keccak.crf --depend .\out_files\ed25519-keccak.d)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (ACH512\foundation\core\ed25519-donna\ed25519-keccak.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519.h)(0x685DFC56)
+I (.\ACH512\foundation\core\options.h)(0x685DFC57)
+I (ACH512\foundation\core\ed25519-donna\ed25519-hash-custom-keccak.h)(0x685DFC56)
+I (.\ACH512\foundation\core\sha3.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (ACH512\foundation\core\ed25519-donna\ed25519.c)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-portable.h)(0x685DFC56)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (ACH512\foundation\core\ed25519-donna\curve25519-donna-32bit.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\curve25519-donna-helpers.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\modm-donna-32bit.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-basepoint-table.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-32bit-tables.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-impl-base.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-hash-custom.h)(0x685DFC56)
+F (.\ACH512\foundation\core\ed25519-donna\ed25519-sha3.c)(0x685DFC56)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\ed25519-sha3.o --omf_browse .\out_files\ed25519-sha3.crf --depend .\out_files\ed25519-sha3.d)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (ACH512\foundation\core\ed25519-donna\ed25519-sha3.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519.h)(0x685DFC56)
+I (.\ACH512\foundation\core\options.h)(0x685DFC57)
+I (ACH512\foundation\core\ed25519-donna\ed25519-hash-custom-sha3.h)(0x685DFC56)
+I (.\ACH512\foundation\core\sha3.h)(0x685DFC57)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (ACH512\foundation\core\ed25519-donna\ed25519.c)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-portable.h)(0x685DFC56)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (ACH512\foundation\core\ed25519-donna\curve25519-donna-32bit.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\curve25519-donna-helpers.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\modm-donna-32bit.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-basepoint-table.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-32bit-tables.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-impl-base.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-hash-custom.h)(0x685DFC56)
+F (.\ACH512\foundation\core\ed25519-donna\modm-donna-32bit.c)(0x685DFC56)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\modm-donna-32bit.o --omf_browse .\out_files\modm-donna-32bit.crf --depend .\out_files\modm-donna-32bit.d)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-portable.h)(0x685DFC56)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (ACH512\foundation\core\ed25519-donna\curve25519-donna-32bit.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\curve25519-donna-helpers.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\modm-donna-32bit.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-basepoint-table.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-32bit-tables.h)(0x685DFC56)
+I (ACH512\foundation\core\ed25519-donna\ed25519-donna-impl-base.h)(0x685DFC56)
+F (.\ACH512\foundation\ecdsa\ecdsa_params.c)(0x685DFC57)(--c99 -c --cpu Cortex-M3 --li -g -O2 -Otime --apcs=interwork -I .\ACH512\driver -I .\ACH512\system -I .\APP -I .\CMSIS\Include -I .\COMMON -I .\ACH512\foundation\core -I .\ACH512\foundation\core\aes -I .\ACH512\foundation\core\ed25519-donna -I .\ACH512\foundation\ecdsa -I .\ACH512\foundation\hash -I .\ACH512\foundation\hrng-I.\RTE\_project-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_-o .\out_files\ecdsa_params.o --omf_browse .\out_files\ecdsa_params.crf --depend .\out_files\ecdsa_params.d)
+I (ACH512\foundation\ecdsa\ecdsa_params.h)(0x685DFC57)
+I (.\COMMON\common.h)(0x5B95CAB6)
+I (.\COMMON\stdio.h)(0x5B95CAB6)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (.\COMMON\types.h)(0x5B95CAB6)
+I (.\COMMON\config.h)(0x5B95CAB6)
+I (.\ACH512\system\ach512.h)(0x5B95CABC)
+I (.\CMSIS\Include\core_cm3.h)(0x5B95CAB8)
+I (D:\programFiles\KEIL5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (.\CMSIS\Include\core_cmInstr.h)(0x5B95CAB8)
+I (.\CMSIS\Include\cmsis_armcc.h)(0x5B95CAB8)
+I (.\CMSIS\Include\core_cmFunc.h)(0x5B95CAB8)
+I (.\ACH512\system\system_ach512.h)(0x5B95CABC)
+I (.\ACH512\driver\uart.h)(0x5B95CABA)
+F (.\ACH512\foundation\ecdsa\ecdsa_20171106.lib)(0x685DFC57)()
+F (.\ACH512\foundation\ecdsa\pki_20170406.lib)(0x685DFC57)()
+F (.\ACH512\foundation\ecdsa\rsa_20171106.lib)(0x685DFC57)()
+F (.\ACH512\foundation\hash\sha1_20171106.lib)(0x685DFC55)()
+F (.\ACH512\foundation\hash\sha256_20171106.lib)(0x685DFC55)()
+F (.\ACH512\foundation\hrng\hrng_20171106.lib)(0x685DFC57)()

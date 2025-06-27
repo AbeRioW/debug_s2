@@ -1,0 +1,12 @@
+.\out_files\modm-donna-32bit.o: ACH512\foundation\core\ed25519-donna\modm-donna-32bit.c
+.\out_files\modm-donna-32bit.o: ACH512\foundation\core\ed25519-donna\ed25519-donna.h
+.\out_files\modm-donna-32bit.o: ACH512\foundation\core\ed25519-donna\ed25519-donna-portable.h
+.\out_files\modm-donna-32bit.o: D:\programFiles\KEIL5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\out_files\modm-donna-32bit.o: D:\programFiles\KEIL5\ARM\ARMCC\Bin\..\include\string.h
+.\out_files\modm-donna-32bit.o: D:\programFiles\KEIL5\ARM\ARMCC\Bin\..\include\stdint.h
+.\out_files\modm-donna-32bit.o: ACH512\foundation\core\ed25519-donna\curve25519-donna-32bit.h
+.\out_files\modm-donna-32bit.o: ACH512\foundation\core\ed25519-donna\curve25519-donna-helpers.h
+.\out_files\modm-donna-32bit.o: ACH512\foundation\core\ed25519-donna\modm-donna-32bit.h
+.\out_files\modm-donna-32bit.o: ACH512\foundation\core\ed25519-donna\ed25519-donna-basepoint-table.h
+.\out_files\modm-donna-32bit.o: ACH512\foundation\core\ed25519-donna\ed25519-donna-32bit-tables.h
+.\out_files\modm-donna-32bit.o: ACH512\foundation\core\ed25519-donna\ed25519-donna-impl-base.h

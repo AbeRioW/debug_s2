@@ -1,0 +1,10 @@
+.\out_files\rfc6979.o: ACH512\foundation\core\rfc6979.c
+.\out_files\rfc6979.o: ACH512\foundation\core\rfc6979.h
+.\out_files\rfc6979.o: D:\programFiles\KEIL5\ARM\ARMCC\Bin\..\include\stdint.h
+.\out_files\rfc6979.o: ACH512\foundation\core\bignum.h
+.\out_files\rfc6979.o: D:\programFiles\KEIL5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\out_files\rfc6979.o: D:\programFiles\KEIL5\ARM\ARMCC\Bin\..\include\stddef.h
+.\out_files\rfc6979.o: ACH512\foundation\core\options.h
+.\out_files\rfc6979.o: ACH512\foundation\core\hmac_drbg.h
+.\out_files\rfc6979.o: .\ACH512\foundation\core\sha2.h
+.\out_files\rfc6979.o: ACH512\foundation\core\memzero.h

@@ -1,0 +1,10 @@
+.\out_files\bignum.o: ACH512\foundation\core\bignum.c
+.\out_files\bignum.o: ACH512\foundation\core\bignum.h
+.\out_files\bignum.o: D:\programFiles\KEIL5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\out_files\bignum.o: D:\programFiles\KEIL5\ARM\ARMCC\Bin\..\include\stddef.h
+.\out_files\bignum.o: D:\programFiles\KEIL5\ARM\ARMCC\Bin\..\include\stdint.h
+.\out_files\bignum.o: ACH512\foundation\core\options.h
+.\out_files\bignum.o: D:\programFiles\KEIL5\ARM\ARMCC\Bin\..\include\assert.h
+.\out_files\bignum.o: D:\programFiles\KEIL5\ARM\ARMCC\Bin\..\include\stdio.h
+.\out_files\bignum.o: D:\programFiles\KEIL5\ARM\ARMCC\Bin\..\include\string.h
+.\out_files\bignum.o: ACH512\foundation\core\memzero.h

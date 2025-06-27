@@ -20,6 +20,7 @@ int main(void)
 
 	while(1)
 	{
+		 printf("123\r\n");
   }
 }
 

@@ -1,0 +1,15 @@
+.\out_files\base58.o: ACH512\foundation\core\base58.c
+.\out_files\base58.o: ACH512\foundation\core\base58.h
+.\out_files\base58.o: D:\programFiles\KEIL5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\out_files\base58.o: D:\programFiles\KEIL5\ARM\ARMCC\Bin\..\include\stdint.h
+.\out_files\base58.o: ACH512\foundation\core\hasher.h
+.\out_files\base58.o: D:\programFiles\KEIL5\ARM\ARMCC\Bin\..\include\stddef.h
+.\out_files\base58.o: ACH512\foundation\core\blake256.h
+.\out_files\base58.o: ACH512\foundation\core\blake2b.h
+.\out_files\base58.o: ACH512\foundation\core\groestl.h
+.\out_files\base58.o: ACH512\foundation\core\sha2.h
+.\out_files\base58.o: ACH512\foundation\core\sha3.h
+.\out_files\base58.o: ACH512\foundation\core\options.h
+.\out_files\base58.o: D:\programFiles\KEIL5\ARM\ARMCC\Bin\..\include\string.h
+.\out_files\base58.o: ACH512\foundation\core\memzero.h
+.\out_files\base58.o: ACH512\foundation\core\ripemd160.h

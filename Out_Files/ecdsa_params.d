@@ -1,0 +1,16 @@
+.\out_files\ecdsa_params.o: ACH512\foundation\ecdsa\ecdsa_params.c
+.\out_files\ecdsa_params.o: ACH512\foundation\ecdsa\ecdsa_params.h
+.\out_files\ecdsa_params.o: .\COMMON\common.h
+.\out_files\ecdsa_params.o: .\COMMON\stdio.h
+.\out_files\ecdsa_params.o: D:\programFiles\KEIL5\ARM\ARMCC\Bin\..\include\string.h
+.\out_files\ecdsa_params.o: .\COMMON\types.h
+.\out_files\ecdsa_params.o: .\COMMON\config.h
+.\out_files\ecdsa_params.o: .\ACH512\system\ach512.h
+.\out_files\ecdsa_params.o: .\CMSIS\Include\core_cm3.h
+.\out_files\ecdsa_params.o: D:\programFiles\KEIL5\ARM\ARMCC\Bin\..\include\stdint.h
+.\out_files\ecdsa_params.o: .\CMSIS\Include\core_cmInstr.h
+.\out_files\ecdsa_params.o: .\CMSIS\Include\cmsis_armcc.h
+.\out_files\ecdsa_params.o: .\CMSIS\Include\core_cmFunc.h
+.\out_files\ecdsa_params.o: .\ACH512\system\system_ach512.h
+.\out_files\ecdsa_params.o: .\COMMON\common.h
+.\out_files\ecdsa_params.o: .\ACH512\driver\uart.h
