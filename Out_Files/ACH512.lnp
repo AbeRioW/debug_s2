@@ -1,0 +1,14 @@
+--cpu Cortex-M3
+".\out_files\startup.o"
+".\out_files\system_ach512.o"
+".\out_files\uart.o"
+".\out_files\usb.o"
+".\out_files\usb_app.o"
+".\out_files\usb_desc.o"
+".\out_files\webusb.o"
+".\out_files\common.o"
+".\out_files\main.o"
+--strict --scatter ".\Out_Files\ACH512.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\ACH512.map" -o .\Out_Files\ACH512.axf
