@@ -338,9 +338,9 @@
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define></Define>
+              <Define>USE_CARDANO</Define>
               <Undefine></Undefine>
-              <IncludePath>.\ACH512\driver;.\ACH512\system;.\APP;.\CMSIS\Include;.\COMMON;.\ACH512\foundation\core;.\ACH512\foundation\core\aes;.\ACH512\foundation\core\ed25519-donna;.\ACH512\foundation\ecdsa;.\ACH512\foundation\hash;.\ACH512\foundation\hrng</IncludePath>
+              <IncludePath>.\ACH512\driver;.\ACH512\system;.\APP;.\CMSIS\Include;.\COMMON;.\ACH512\foundation\core;.\ACH512\foundation\core\aes;.\ACH512\foundation\core\ed25519-donna;.\ACH512\foundation\ecdsa;.\ACH512\foundation\hash;.\ACH512\foundation\hrng;.\ACH512\crypto</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -424,6 +424,11 @@
               <FileType>1</FileType>
               <FilePath>.\ACH512\driver\webusb.c</FilePath>
             </File>
+            <File>
+              <FileName>eflash.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\ACH512\driver\eflash.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -443,6 +448,11 @@
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\APP\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>seed.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\APP\seed.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -683,6 +693,26 @@
               <FileName>hrng_20171106.lib</FileName>
               <FileType>4</FileType>
               <FilePath>.\ACH512\foundation\hrng\hrng_20171106.lib</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>crypto</GroupName>
+          <Files>
+            <File>
+              <FileName>cx_derive.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\ACH512\crypto\cx_derive.c</FilePath>
+            </File>
+            <File>
+              <FileName>cx_hash.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\ACH512\crypto\cx_hash.c</FilePath>
+            </File>
+            <File>
+              <FileName>cx_sign.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\ACH512\crypto\cx_sign.c</FilePath>
             </File>
           </Files>
         </Group>

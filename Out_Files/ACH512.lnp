@@ -6,8 +6,10 @@
 ".\out_files\usb_app.o"
 ".\out_files\usb_desc.o"
 ".\out_files\webusb.o"
+".\out_files\eflash.o"
 ".\out_files\common.o"
 ".\out_files\main.o"
+".\out_files\seed.o"
 ".\out_files\address.o"
 ".\out_files\base58.o"
 ".\out_files\bignum.o"
@@ -53,6 +55,9 @@
 ".\ACH512\foundation\hash\sha1_20171106.lib"
 ".\ACH512\foundation\hash\sha256_20171106.lib"
 ".\ACH512\foundation\hrng\hrng_20171106.lib"
+".\out_files\cx_derive.o"
+".\out_files\cx_hash.o"
+".\out_files\cx_sign.o"
 --strict --scatter ".\Out_Files\ACH512.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

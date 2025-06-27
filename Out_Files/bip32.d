@@ -24,4 +24,5 @@
 .\out_files\bip32.o: ACH512\foundation\core\nist256p1.h
 .\out_files\bip32.o: ACH512\foundation\core\secp256k1.h
 .\out_files\bip32.o: ACH512\foundation\core\ed25519-donna/ed25519-keccak.h
+.\out_files\bip32.o: ACH512\foundation\core\pbkdf2.h
 .\out_files\bip32.o: ACH512\foundation\core\memzero.h

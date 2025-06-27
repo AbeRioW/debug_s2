@@ -4,10 +4,10 @@
 .\out_files\uart.o: .\COMMON\stdio.h
 .\out_files\uart.o: D:\programFiles\KEIL5\ARM\ARMCC\Bin\..\include\string.h
 .\out_files\uart.o: .\COMMON\types.h
+.\out_files\uart.o: D:\programFiles\KEIL5\ARM\ARMCC\Bin\..\include\stdint.h
 .\out_files\uart.o: .\COMMON\config.h
 .\out_files\uart.o: .\ACH512\system\ach512.h
 .\out_files\uart.o: .\CMSIS\Include\core_cm3.h
-.\out_files\uart.o: D:\programFiles\KEIL5\ARM\ARMCC\Bin\..\include\stdint.h
 .\out_files\uart.o: .\CMSIS\Include\core_cmInstr.h
 .\out_files\uart.o: .\CMSIS\Include\cmsis_armcc.h
 .\out_files\uart.o: .\CMSIS\Include\core_cmFunc.h
